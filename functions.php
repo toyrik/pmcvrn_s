@@ -7,6 +7,11 @@
  * @package pmcvrn_s
  */
 
+
+define('MYTHEME_DIR_CSS', get_template_directory_uri() . '/css/');
+define('MYTHEME_DIR_JS', get_template_directory_uri() . '/js/');
+define('MYTHEME_DIR_IMG', get_template_directory_uri() . '/img/');
+
 if ( ! defined( '_S_VERSION' ) ) {
 	// Replace the version number of the theme on each release.
 	define( '_S_VERSION', '1.0.0' );
